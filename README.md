@@ -1,6 +1,8 @@
-#Vue site guide
+# vue-site-guide
 
 
+
+[Demo and documentation](https://github.com/b13.oleksandr)
 
 
 
@@ -13,8 +15,6 @@ yarn add vue-site-guide
 ``` sh
 npm i vue-site-guide
 ```
-
-
 
 
 
@@ -53,8 +53,6 @@ Accepted values:
 | supportBgColor         | `String`        | `''`          | Background color of the step backdrop                                   |
 | supportRadius          | `String`        | `''`          | Border radius of the step backdrop in CSS units                         |
 | supportShadow          | `String`        | `''`          | Shadow of the step backdrop                                             |
-
-
 
 
 
@@ -109,8 +107,6 @@ Emitted when guide reaches its last step
 
 
 
-
-
 # Slots
 
 ## default
@@ -132,8 +128,6 @@ Default slot used for pass the content
   </div>
 </vue-site-guide>
 ```
-
-
 
 
 
