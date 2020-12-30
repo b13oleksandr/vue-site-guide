@@ -2,6 +2,7 @@
   "name": "vue-site-guide",
   "version": "1.0.1",
   "description": "",
+  "license": "MIT",
   "main": "dist/vue-site-guide.ssr.js",
   "browser": "dist/vue-site-guide.esm.js",
   "module": "dist/vue-site-guide.esm.js",
