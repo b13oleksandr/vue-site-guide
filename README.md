@@ -2,7 +2,7 @@
 
 
 
-[Demo and documentation](https://github.com/b13.oleksandr)
+[Demo and documentation](https://b13oleksandr.github.io/vue-site-guide-docs/)
 
 
 
