@@ -265,6 +265,10 @@ export default {
 
   methods: {
     init() {
+      if (typeof window === 'undefined') {
+        return
+      }
+
       if (!this.stepsCount) {
         return
       }
@@ -319,7 +323,8 @@ export default {
     toStep(stepNumber, needObserve = true) {
       if (
           !this.innerConfig.steps[stepNumber] ||
-          !this.innerConfig.steps[stepNumber].el
+          !this.innerConfig.steps[stepNumber].el ||
+          typeof window === 'undefined'
       ) {
         return
       }
