@@ -1,7 +1,7 @@
 {
   "name": "vue-site-guide",
   "version": "1.0.1",
-  "description": "",
+  "description": "Library to help users get to know your site",
   "license": "MIT",
   "main": "dist/vue-site-guide.ssr.js",
   "browser": "dist/vue-site-guide.esm.js",
