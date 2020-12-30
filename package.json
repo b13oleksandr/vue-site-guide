@@ -1,6 +1,6 @@
 {
   "name": "vue-site-guide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library to help users get to know your site",
   "license": "MIT",
   "keywords": ["vue", "vue js", "guide", "site guide", "tour", "site tour", "vue-site-guide"],
