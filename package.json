@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Library to help users get to know your site",
   "license": "MIT",
+  "keywords": ["vue", "vue js", "guide", "site guide", "tour", "site tour", "vue-site-guide"],
   "main": "dist/vue-site-guide.ssr.js",
   "browser": "dist/vue-site-guide.esm.js",
   "module": "dist/vue-site-guide.esm.js",
