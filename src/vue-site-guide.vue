@@ -578,15 +578,18 @@ export default {
 .guide__nav-button {
   height: 32px;
   outline: none;
-  background-color: #fff;
   border-radius: 4px;
-  border: 2px solid #ccc;
+  border: none;
   padding: 0 16px;
   font-size: 12px;
+  cursor: pointer;
+  background-color: #3eaf7c;
+  color: #fff;
 }
 
-.guide__nav-button:not([disabled]) {
-  cursor: pointer;
+.guide__nav-button[disabled] {
+  cursor: default;
+  opacity: .5;
 }
 
 .guide__nav-button:first-child {
@@ -596,7 +599,7 @@ export default {
 .guide__skip-button {
   font-size: 12px;
   line-height: 18px;
-  color: #777777;
   cursor: pointer;
+  color: #b6b6b6;
 }
 </style>
